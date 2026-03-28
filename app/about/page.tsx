@@ -439,11 +439,11 @@ export default function AboutPage() {
 
           <div className="grid gap-12 md:grid-cols-2 items-center">
             <div className="relative h-80 overflow-hidden rounded-lg">
-              <Image src="/images/kailash-nath-singh.jpg" alt="Shri Kailash Nath Singh" fill className="object-cover" />
+              <Image src="/images/kailash_baba.jpg" alt="Shri Kailash Nath Singh" fill className="object-cover" />
             </div>
             <div>
               <h3 className="text-2xl font-bold tracking-tight">Shri Kailash Nath Singh</h3>
-              <p className="mt-2 text-primary font-medium">Father of Alok Sir</p>
+              <p className="mt-2 text-primary font-medium">Associate Professor, University of Rajasthan</p>
               <p className="mt-4 text-muted-foreground">
                 Retired Associate Professor from the University of Rajasthan, Mathematics Department, Shri Kailash Nath
                 Singh laid the foundation of mathematical excellence that continues to inspire our teaching methodology
@@ -464,7 +464,7 @@ export default function AboutPage() {
           <div className="grid gap-12 md:grid-cols-2 items-center">
             <div className="relative h-80 overflow-hidden rounded-lg">
               <Image
-                src="/images/founder.jpg"
+                src="/images/founder1.jpg"
                 alt="Alok Sir - Founder of KNS Education"
                 fill
                 className="object-cover"
@@ -492,11 +492,11 @@ export default function AboutPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-primary">•</span>
-                  <span>24 Years of Teaching Experience</span>
+                  <span>25 Years of Teaching Experience</span>
                 </li>
               </ul>
               <p className="mt-6 text-muted-foreground">
-                Founded in 2014 by Alok Sir, KNS Education began as a small coaching center with just 15 students. With
+                Founded in 2019 by Alok Sir, KNS Education began as a small coaching center with just 15 students. With
                 a vision to provide quality education and personalized mentorship, the institute has grown to become one
                 of the most trusted names in IIT-JEE and NEET preparation in Jaipur.
               </p>
@@ -505,11 +505,7 @@ export default function AboutPage() {
                 premier institutions like IITs, NITs, AIIMS, and other medical colleges across India. Our consistent
                 track record of producing top rankers is a testament to our commitment to excellence.
               </p>
-              <div className="mt-6">
-                <Button asChild>
-                  <Link href="/about/founder">Read Founder's Message</Link>
-                </Button>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -662,7 +658,7 @@ export default function AboutPage() {
             <Card className="overflow-hidden">
               <div className="aspect-video w-full overflow-hidden">
                 <Image
-                  src="/images/infrastructure-library.jpg"
+                  src="/images/digiclass1.jpeg"
                   alt="Well-Stocked Library"
                   width={500}
                   height={280}
@@ -681,7 +677,7 @@ export default function AboutPage() {
             <Card className="overflow-hidden">
               <div className="aspect-video w-full overflow-hidden">
                 <Image
-                  src="/images/infrastructure-lab.jpg"
+                  src="/images/digiclass.jpeg"
                   alt="Advanced Laboratories"
                   width={500}
                   height={280}
@@ -689,9 +685,9 @@ export default function AboutPage() {
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold">Advanced Laboratories</h3>
+                <h3 className="text-xl font-bold">AC & Ventilated Classrooms</h3>
                 <p className="mt-2 text-muted-foreground">
-                  Fully equipped physics, chemistry, and biology labs for practical learning and experimentation.
+                Comfortable, air-conditioned, and well-ventilated spaces for a distraction-free learning experience
                 </p>
               </CardContent>
             </Card>
@@ -711,7 +707,7 @@ export default function AboutPage() {
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-4">
                 <Button asChild size="lg" variant="secondary">
-                  <Link href="/admissions">Apply Now</Link>
+                  <Link href="https://forms.gle/CFWfLACcsBZxTryTA">Apply Now</Link>
                 </Button>
                 <Button
                   asChild
@@ -719,7 +715,7 @@ export default function AboutPage() {
                   variant="outline"
                   className="bg-transparent text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary"
                 >
-                  <Link href="/contact">Contact Us</Link>
+                  <Link href="https://forms.gle/HyhaxwtYHTq5LJxt7">Contact Us</Link>
                 </Button>
               </div>
             </div>

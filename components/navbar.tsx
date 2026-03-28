@@ -13,7 +13,6 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     { name: "About Us", href: "/about" },
     { name: "Courses", href: "/courses" },
-    { name: "Testimonials", href: "/testimonials" },
     // { name: "Events", href: "/events" },
     // { name: "Gallery", href: "/gallery" },
     // { name: "Blog", href: "/blog" },
@@ -38,9 +37,6 @@ export default function Navbar() {
               {item.name}
             </Link>
           ))}
-          <Button asChild variant="kns" className="ml-4">
-            <Link href="/gurukul">Access GuruKul (LMS)</Link>
-          </Button>
         </nav>
 
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -61,11 +57,6 @@ export default function Navbar() {
                   {item.name}
                 </Link>
               ))}
-              <Button asChild variant="kns" className="mt-4">
-                <Link href="/gurukul" onClick={() => setIsOpen(false)}>
-                  Access GuruKul (LMS)
-                </Link>
-              </Button>
             </div>
           </SheetContent>
         </Sheet>

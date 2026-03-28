@@ -22,14 +22,8 @@ export default function Footer() {
               personalized mentorship.
             </p>
             <div className="flex space-x-4">
-              <Link href="https://facebook.com" className="hover:text-accent">
-                <Facebook className="h-5 w-5" />
-                <span className="sr-only">Facebook</span>
-              </Link>
-              <Link href="https://twitter.com" className="hover:text-accent">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Link>
+              
+             
               <Link href="https://www.instagram.com/kns_education?utm_source=qr&igsh=Mnk4aDNld2IyN2h6" className="hover:text-accent">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
@@ -58,26 +52,8 @@ export default function Footer() {
                   Courses
                 </Link>
               </li>
-              <li>
-                <Link href="/testimonials" className="hover:text-accent">
-                  Testimonials
-                </Link>
-              </li>
-              <li>
-                <Link href="/events" className="hover:text-accent">
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link href="/gallery" className="hover:text-accent">
-                  Gallery
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog" className="hover:text-accent">
-                  Blog
-                </Link>
-              </li>
+              
+              
               <li>
                 <Link href="/contact" className="hover:text-accent">
                   Contact

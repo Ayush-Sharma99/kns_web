@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { BookOpen, Calendar, GraduationCap, Trophy, Users } from "lucide-react"
-import TestimonialCard from "@/components/testimonial-card"
 import CourseCard from "@/components/course-card"
 import StatsCounter from "@/components/stats-counter"
 import FacultyCard from "@/components/faculty-card"
@@ -46,7 +45,7 @@ export default function Home() {
         <div className="container text-center">
           <p className="text-sm font-medium sm:text-base">
             <span className="font-bold">New Batch Alert:</span> Registrations open for 2024-25 IIT-JEE & NEET Batches.
-            <Link href="/admissions" className="ml-2 underline underline-offset-4">
+            <Link href="https://forms.gle/CFWfLACcsBZxTryTA" className="ml-2 underline underline-offset-4">
               Apply Now
             </Link>
           </p>
@@ -155,10 +154,10 @@ export default function Home() {
       <section className="bg-muted py-16">
         <div className="container">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-            <StatsCounter value={10} label="Years of Excellence" />
-            <StatsCounter value={5000} label="Success Stories" suffix="+" />
-            <StatsCounter value={50} label="Expert Faculty Members" suffix="+" />
-            <StatsCounter value={95} label="Selection Rate" suffix="%" />
+            <StatsCounter value={8} label="Years of Excellence" />
+            <StatsCounter value={500} label="Success Stories" suffix="+" />
+            <StatsCounter value={10} label="Expert Faculty Members" suffix="+" />
+            <StatsCounter value={92} label="Selection Rate" suffix="%" />
           </div>
         </div>
       </section>
@@ -186,21 +185,21 @@ export default function Home() {
                   description="Comprehensive preparation for Class 11 students aiming for JEE Main & Advanced."
                   image="/images/course-jee.jpg"
                   features={["Complete syllabus coverage", "Regular mock tests", "Doubt clearing sessions"]}
-                  href="/courses/iit-jee-two-year"
+                  href="https://forms.gle/HyhaxwtYHTq5LJxt7"
                 />
                 <CourseCard
                   title="IIT-JEE One-Year Program"
                   description="Intensive course for Class 12 students focusing on JEE Main & Advanced preparation."
                   image="/images/course-jee-intensive.jpg"
                   features={["Accelerated learning", "Topic-wise tests", "Previous year paper analysis"]}
-                  href="/courses/iit-jee-one-year"
+                  href="https://forms.gle/HyhaxwtYHTq5LJxt7"
                 />
                 <CourseCard
                   title="JEE Test Series"
                   description="Comprehensive test series with detailed analysis and performance tracking."
                   image="/images/course-test-series.jpg"
                   features={["Chapter-wise tests", "Full-length mock exams", "Personalized feedback"]}
-                  href="/courses/jee-test-series"
+                  href="https://forms.gle/HyhaxwtYHTq5LJxt7"
                 />
               </div>
             </TabsContent>
@@ -212,21 +211,21 @@ export default function Home() {
                   description="Comprehensive preparation for Class 11 students aiming for NEET."
                   image="/images/course-neet.jpg"
                   features={["Complete syllabus coverage", "Regular mock tests", "Doubt clearing sessions"]}
-                  href="/courses/neet-two-year"
+                  href="https://forms.gle/HyhaxwtYHTq5LJxt7"
                 />
                 <CourseCard
                   title="NEET One-Year Program"
                   description="Intensive course for Class 12 students focusing on NEET preparation."
                   image="/images/course-neet-intensive.jpg"
                   features={["Accelerated learning", "Topic-wise tests", "Previous year paper analysis"]}
-                  href="/courses/neet-one-year"
+                  href="https://forms.gle/HyhaxwtYHTq5LJxt7"
                 />
                 <CourseCard
                   title="NEET Test Series"
                   description="Comprehensive test series with detailed analysis and performance tracking."
                   image="/images/course-test-series-neet.jpg"
                   features={["Subject-wise tests", "Full-length mock exams", "Personalized feedback"]}
-                  href="/courses/neet-test-series"
+                  href="https://forms.gle/HyhaxwtYHTq5LJxt7"
                 />
               </div>
             </TabsContent>
@@ -238,21 +237,21 @@ export default function Home() {
                   description="Building strong fundamentals for future competitive exam preparation."
                   image="/images/course-foundation-9.jpg"
                   features={["Concept building", "Analytical thinking", "Problem-solving skills"]}
-                  href="/courses/foundation-class-9"
+                  href="https://forms.gle/HyhaxwtYHTq5LJxt7"
                 />
                 <CourseCard
                   title="Foundation Course (Class 10)"
                   description="Strengthening core concepts and preparing for board exams and beyond."
                   image="/images/course-foundation-10.jpg"
                   features={["Board exam preparation", "Competitive exam introduction", "Regular assessments"]}
-                  href="/courses/foundation-class-10"
+                  href="https://forms.gle/HyhaxwtYHTq5LJxt7"
                 />
                 <CourseCard
                   title="Pre-Foundation Course"
                   description="Early preparation for students in Class 8 to build a strong academic foundation."
                   image="/images/course-pre-foundation.jpg"
                   features={["Basic concept clarity", "Logical reasoning", "Scientific temperament"]}
-                  href="/courses/pre-foundation"
+                  href="https://forms.gle/HyhaxwtYHTq5LJxt7"
                 />
               </div>
             </TabsContent>
@@ -264,21 +263,21 @@ export default function Home() {
                   description="Intensive revision program for JEE aspirants in the final months before the exam."
                   image="/images/course-jee-crash.jpg"
                   features={["Rapid revision", "Important topics focus", "Daily mock tests"]}
-                  href="/courses/jee-crash"
+                  href="https://forms.gle/HyhaxwtYHTq5LJxt7"
                 />
                 <CourseCard
                   title="NEET Crash Course"
                   description="Comprehensive revision program for NEET aspirants in the final months before the exam."
                   image="/images/course-neet-crash.jpg"
                   features={["Subject-wise revision", "NCERT focus", "Daily practice tests"]}
-                  href="/courses/neet-crash"
+                  href="https://forms.gle/HyhaxwtYHTq5LJxt7"
                 />
                 <CourseCard
                   title="Board Exam Crash Course"
                   description="Targeted preparation for Class 12 board exams with focus on scoring techniques."
                   image="/images/course-board-crash.jpg"
                   features={["Important questions", "Answer writing skills", "Time management"]}
-                  href="/courses/board-crash"
+                  href="https://forms.gle/HyhaxwtYHTq5LJxt7"
                 />
               </div>
             </TabsContent>
@@ -305,74 +304,33 @@ export default function Home() {
               name="Alok Sir"
               position="Founder & Maths Faculty"
               image="/images/founder.jpg"
-              experience="24+ years"
+              experience="25+ years"
               education="MNIT JAIPUR"
             />
             <FacultyCard
-              name="Vandan Singh"
+              name="Vandana Singh"
               position="Chemistry Faculty"
-              image="/images/faculty-priya.jpg"
+              image="/images/vandana.jpeg"
               experience="10+ years"
               education="M.Sc. Chemistry"
             />
             <FacultyCard
               name="Dr. Archana Singh"
               position="Biology Faculty"
-              image="/images/faculty-rajesh.jpg"
+              image="/images/archana.jpeg"
               experience="10+ years"
               education="M.Sc. Ph.D."
             />
             <FacultyCard
               name="Er. Roshan Jha"
               position="Physics Faculty"
-              image="/images/faculty-amit.jpg"
+              image="/images/roshan.jpeg"
               experience="9+ years"
               education="B.Tech."
             />
           </div>
 
-          <div className="mt-10 text-center">
-            <Button asChild variant="outline" size="lg">
-              <Link href="/about#faculty">View All Faculty</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-16 md:py-24">
-        <div className="container">
-          <div className="mb-12 text-center">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Success Stories</h2>
-            <p className="mt-4 text-muted-foreground">Hear from our students who achieved their dreams</p>
-          </div>
-
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <TestimonialCard
-              name="Ar. Sana Soni"
-              achievement="AIR 1 AIEEE-B.Arch 2011"
-              image="/images/testimonial-sana.jpg"
-              quote="The personalized attention and mentorship at KNS Education helped me understand complex concepts and excel in my JEE preparation."
-            />
-            <TestimonialCard
-              name="Chandrika Agrawal"
-              achievement="IIT BOMBAY"
-              image="/images/testimonial-chandrika.jpg"
-              quote="The faculty at KNS Education is exceptional. Their guidance and support were crucial in my JEE journey."
-            />
-            <TestimonialCard
-              name="Palak Raisinghani"
-              achievement="IISC BANGLORE"
-              image="/images/testimonial-palak.jpg"
-              quote="The study material and test series at KNS Education are comprehensive and helped me identify and improve my weak areas."
-            />
-          </div>
-
-          <div className="mt-10 text-center">
-            <Button asChild size="lg" variant="outline">
-              <Link href="/testimonials">Read More Success Stories</Link>
-            </Button>
-          </div>
+          
         </div>
       </section>
 
@@ -391,7 +349,7 @@ export default function Home() {
               time="6:00 PM - 7:30 PM"
               location="Online (Zoom)"
               image="/images/event-jee-webinar.jpg"
-              href="/events/jee-advanced-strategy"
+              href="https://forms.gle/CFWfLACcsBZxTryTA"
             />
             <EventCard
               title="NEET 2024 Preparation Workshop"
@@ -399,7 +357,7 @@ export default function Home() {
               time="10:00 AM - 1:00 PM"
               location="KNS Education Campus, Jaipur"
               image="/images/event-neet-workshop.jpg"
-              href="/events/neet-preparation-workshop"
+              href="https://forms.gle/CFWfLACcsBZxTryTA"
             />
             <EventCard
               title="Parent-Teacher Meeting"
@@ -407,15 +365,11 @@ export default function Home() {
               time="11:00 AM - 2:00 PM"
               location="KNS Education Campus, Jaipur"
               image="/images/event-ptm.jpg"
-              href="/events/parent-teacher-meeting"
+              href="https://forms.gle/CFWfLACcsBZxTryTA"
             />
           </div>
 
-          <div className="mt-10 text-center">
-            <Button asChild size="lg" variant="outline">
-              <Link href="/events">View All Events</Link>
-            </Button>
-          </div>
+         
         </div>
       </section>
 
@@ -430,7 +384,7 @@ export default function Home() {
             </p>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               <Button asChild size="lg" variant="secondary">
-                <Link href="/admissions">Apply Now</Link>
+                <Link href="https://forms.gle/CFWfLACcsBZxTryTA">Apply Now</Link>
               </Button>
               <Button
                 asChild
@@ -438,7 +392,7 @@ export default function Home() {
                 variant="outline"
                 className="bg-transparent text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary"
               >
-                <Link href="/contact">Schedule a Visit</Link>
+                <Link href="https://forms.gle/HyhaxwtYHTq5LJxt7">Schedule a Visit</Link>
               </Button>
             </div>
           </div>

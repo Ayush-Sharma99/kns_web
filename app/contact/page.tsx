@@ -79,13 +79,13 @@ export default function ContactPage() {
                 </div>
                 <h3 className="mb-2 text-xl font-semibold">Phone</h3>
                 <p className="text-muted-foreground">
-                  <a href="tel:+919876543210" className="hover:text-primary">
-                    +91 98765 43210
+                  <a href="tel:+917976911779" className="hover:text-primary">
+                    +91 79769 11779
                   </a>
                 </p>
                 <p className="text-muted-foreground">
-                  <a href="tel:+919876543211" className="hover:text-primary">
-                    +91 98765 43211
+                  <a href="tel:+919414272247" className="hover:text-primary">
+                    +91 94142 72247
                   </a>
                 </p>
               </CardContent>
@@ -98,13 +98,8 @@ export default function ContactPage() {
                 </div>
                 <h3 className="mb-2 text-xl font-semibold">Email</h3>
                 <p className="text-muted-foreground">
-                  <a href="mailto:info@knseducation.com" className="hover:text-primary">
-                    info@knseducation.com
-                  </a>
-                </p>
-                <p className="text-muted-foreground">
-                  <a href="mailto:admissions@knseducation.com" className="hover:text-primary">
-                    admissions@knseducation.com
+                  <a href="mailto:knseducation.help@gmail.com" className="hover:text-primary">
+                    knseducation.help@gmail.com
                   </a>
                 </p>
               </CardContent>
@@ -116,8 +111,8 @@ export default function ContactPage() {
                   <MapPin className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="mb-2 text-xl font-semibold">Address</h3>
-                <p className="text-muted-foreground">123 Education Street, Jaipur, Rajasthan 302001</p>
-                <p className="mt-2 text-sm text-muted-foreground">(Near City Mall, Tonk Road)</p>
+                <p className="text-muted-foreground">C-451, Mahesh Nagar, Jaipur, Rajasthan 302015</p>
+                <p className="mt-2 text-sm text-muted-foreground">(Near Gopalpura Bypass)</p>
               </CardContent>
             </Card>
           </div>
@@ -205,17 +200,24 @@ export default function ContactPage() {
               </form>
             </div>
 
-            <div className="h-[400px] overflow-hidden rounded-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.99973450298!2d75.65047228361074!3d26.88514167956319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1648224324961!5m2!1sen!2sin"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="KNS Education Location"
-              ></iframe>
+            <div className="flex flex-col gap-4">
+              <div className="h-[400px] overflow-hidden rounded-lg">
+                <iframe
+                  src="https://www.google.com/maps?q=KNS+Education+Jaipur&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="KNS Education Location"
+                ></iframe>
+              </div>
+              <Button asChild variant="outline" className="w-full">
+                <Link href="https://share.google/w9QQPI0PVDSjswVMZ" target="_blank" rel="noopener noreferrer">
+                  View on Google Maps
+                </Link>
+              </Button>
             </div>
           </div>
         </div>
