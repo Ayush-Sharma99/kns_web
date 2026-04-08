@@ -442,7 +442,7 @@ export default function AboutPage() {
               <Image src="/images/kailash_baba.jpg" alt="Shri Kailash Nath Singh" fill className="object-cover" />
             </div>
             <div>
-              <h3 className="text-2xl font-bold tracking-tight">Shri Kailash Nath Singh</h3>
+              <h3 className="text-2xl font-bold tracking-tight">Dr. Kailash Nath Singh</h3>
               <p className="mt-2 text-primary font-medium">Associate Professor, University of Rajasthan</p>
               <p className="mt-4 text-muted-foreground">
                 Retired Associate Professor from the University of Rajasthan, Mathematics Department, Shri Kailash Nath
