@@ -44,7 +44,7 @@ export default function Home() {
       <section className="bg-accent py-4 text-accent-foreground">
         <div className="container text-center">
           <p className="text-sm font-medium sm:text-base">
-            <span className="font-bold">New Batch Alert:</span> Registrations open for 2024-25 IIT-JEE & NEET Batches.
+            <span className="font-bold">New Batch Alert:</span> Registrations open for 2026-27 IIT-JEE & NEET Batches.
             <Link href="https://forms.gle/CFWfLACcsBZxTryTA" className="ml-2 underline underline-offset-4">
               Apply Now
             </Link>
