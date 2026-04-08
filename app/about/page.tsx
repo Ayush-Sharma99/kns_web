@@ -496,7 +496,7 @@ export default function AboutPage() {
                 </li>
               </ul>
               <p className="mt-6 text-muted-foreground">
-                Founded in 2019 by Alok Sir, KNS Education began as a small coaching center with just 15 students. With
+                Founded in 2021 by Alok Sir, KNS Education began as a small coaching center with just 15 students. With
                 a vision to provide quality education and personalized mentorship, the institute has grown to become one
                 of the most trusted names in IIT-JEE and NEET preparation in Jaipur.
               </p>
